@@ -7,9 +7,9 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 
 @Entity
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Data
 @Table(name = "category")
 public class Category {
     @Id

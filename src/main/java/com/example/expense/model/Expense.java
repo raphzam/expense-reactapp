@@ -10,10 +10,10 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import java.time.Instant;
 
+@Entity
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Data
-@Entity
 @Table(name = "expense")
 public class Expense {
     @Id
